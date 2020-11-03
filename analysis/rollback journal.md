@@ -39,3 +39,13 @@
 &emsp;&emsp;日志文件的文件头格式如下
 
 ![](../图片/rollback journal header format.png)
+
+&emsp;&emsp;文件头之后是多条页面记录，页面记录由页面内容及相关信息组成，结构如下：
+
+![](../图片/rollback journal page record.png)
+
+
+
+###### 参考资料
+
+1. [Sqlite file format](https://www.sqlite.org/fileformat.html)
