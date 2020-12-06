@@ -12,3 +12,4 @@
 - [sqlite vfs的定义](.\vfs.md)
 - [rollback journal](./rollback journal.md)
 - [wal](./wal.md)
+- [vdbe](./vdbe.md)
